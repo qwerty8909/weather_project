@@ -3,8 +3,8 @@ from requests.exceptions import ConnectionError
 from aiogram import Bot
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
-from weather_bot.keyboards import keyboards
-from weather_bot.states.states import WeatherStates
+from ..keyboards import keyboards
+from ..states.states import WeatherStates
 
 
 # команда /start
